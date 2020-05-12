@@ -44,6 +44,16 @@ const Header = ({ scale, scrollY, data, siteTitle }) => {
     } else {
       document.getElementById('background-blocks').classList.remove('invisible')
     }
+
+    if(scrollY > window.innerHeight * 4) {
+      document.getElementById('main-header').classList.add('clean')
+      document.getElementById('h1').classList.add('remove')
+      document.getElementById('background-blocks').classList.add('remove')
+    } else {
+      document.getElementById('main-header').classList.remove('clean')
+      document.getElementById('h1').classList.remove('remove')
+      document.getElementById('background-blocks').classList.remove('remove')
+    }
   })
 
   useEffect(() => {

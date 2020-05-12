@@ -621,4 +621,11 @@ h1, h2 {
     .invisible {
         opacity: 0;
     }
+    .clean {
+        width: fit-content !important;
+        height: fit-content !important;
+    }
+    .remove {
+        display: none !important;
+    }
 }
