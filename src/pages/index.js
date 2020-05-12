@@ -25,7 +25,7 @@ const IndexPage = () => {
   })
 
   const getScale = () => {
-    if (window !== 'undefined') {
+    if (typeof window !== 'undefined') {
       return (scrollY / window.innerHeight) + 1
     } else {
       return 0
@@ -33,7 +33,7 @@ const IndexPage = () => {
   }
 
   const handleScroll = () => {
-    if (window !== 'undefined') {
+    if (typeof window !== 'undefined') {
       return setScrollY(window.pageYOffset)
     } else {
       return 0
