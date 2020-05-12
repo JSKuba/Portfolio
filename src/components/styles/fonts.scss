@@ -1,0 +1,138 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shadow {
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, nav, button, a {
+    font-family: 'Federo', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: .4em 0;
+}
+
+h3 {
+    font-size: 2.7rem;
+    margin: .7em 0;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+nav {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.7;
+}
+
+@media(min-width: 709px) {
+    html {
+        font-size: 21px;
+    }
+    h1 {
+        font-size: 7rem;
+    }
+    
+    h2 {
+        font-size: 5.2rem;
+        margin: .4em 0;
+    }
+    
+    h3 {
+        font-size: 2.9rem;
+        margin: .7em 0;
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+    
+    nav {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        line-height: 1.7;
+    }
+}
+
+@media(min-width: 887px) {
+    html {
+        font-size: 21px;
+    }
+    h1 {
+        font-size: 7rem;
+    }
+    
+    h2 {
+        font-size: 5.2rem;
+        margin: .4em 0;
+    }
+    
+    h3 {
+        font-size: 2.9rem;
+        margin: .7em 0;
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+    
+    nav {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        line-height: 1.7;
+    }
+}
+
+@media(min-width: 1080px) {
+    h1 {
+        font-size: 9rem;
+    }
+
+    h2 {
+        font-size: 7rem;
+    }
+
+    .shadow {
+        font-size: 1.7em;
+    }
+}
+
+@media(min-width: 1412px) {
+    html {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 10.2rem;
+    }
+
+    h2 {
+        font-size: 7.8rem;
+    }
+
+    .shadow {
+        font-size: 1.7em;
+    }
+    nav {
+        font-size: 1.5rem;
+    }
+}
