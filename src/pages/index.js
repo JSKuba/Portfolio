@@ -18,19 +18,28 @@ const IndexPage = () => {
       return 0
     }
   }
-
-  const getScale = () => {
-    return (scrollY / window.innerHeight) + 1
-  }
-
-  const handleScroll = () => {
-    setScrollY(window.pageYOffset)
-  }
-
+  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   })
+
+  const getScale = () => {
+    if (window !== 'undefined') {
+      return (scrollY / window.innerHeight) + 1
+    } else {
+      return 0
+    }
+  }
+
+  const handleScroll = () => {
+    if (window !== 'undefined') {
+      return setScrollY(window.pageYOffset)
+    } else {
+      return 0
+    }
+  }
+
 
   const mdData = useStaticQuery(graphql`
     query MyQuery {
