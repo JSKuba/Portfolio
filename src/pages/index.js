@@ -12,8 +12,12 @@ const IndexPage = () => {
   const [scrollY, setScrollY] = useState(0)
 
   const getShadow = (target, value1, value2) => {
-    if (document.getElementById(target)) {
-      return ((scrollY - document.getElementById(target).offsetTop) / document.getElementById(target).getBoundingClientRect().height * value1) - value2
+    if (typeof window !== 'undefined') {
+      if (document.getElementById(target)) {
+        return ((scrollY - document.getElementById(target).offsetTop) / document.getElementById(target).getBoundingClientRect().height * value1) - value2
+      } else {
+        return 0
+      }
     } else {
       return 0
     }
