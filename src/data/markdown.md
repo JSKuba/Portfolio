@@ -16,6 +16,16 @@ Self-made, young Front End Developer / Web designer. Started my coding journey i
 
 Here you can check projects my projects. If you're interested in my workflow and how I solve some problems - click "About" button. There aren't many so far, but a lot of my works went straight to the bin, because I was starting projects and halfway realize I could done this 10 times faster and better so I decided to make this again from zero othertime.  
 
+### !Thirsty
+![Pexmeble](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/not-thirsty-min.jpg)
+[!Thirsty website](https://jskuba.github.io/not-thirsty/)
+
+Website to showcase my layout creation skills, little app feature inside.
+###### Code
+[!Thirsty website code](https://github.com/JSKuba/not-thirsty)
+###### About
+False content, simple layout website. Tried to code it dry and as maintanable as I can. Small showcase of my UI/UX, design skills and coding HTML/CSS(SASS)/JavaScript(React.js). Used CocktailDB for small API AXIOS fetch.
+
 ### Pexmeble
 ![Pexmeble](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/pex-min.jpg)
 [Pexmeble website](https://www.pexmeble.pl)
