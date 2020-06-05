@@ -26,15 +26,15 @@ Website to showcase my layout creation skills, little app feature inside.
 ###### About
 False content, simple layout website. Tried to code it dry and as maintanable as I can. Small showcase of my UI/UX, design skills and coding HTML/CSS(SASS)/JavaScript(React.js). Used CocktailDB for small API AXIOS fetch.
 
-### Pexmeble
-![Pexmeble](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/pex-min.jpg)
-[Pexmeble website](https://www.pexmeble.pl)
+### Portfolio
+![icon](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/portfolio-min.png)
+[Pexmeble website](#)
 
-My very first website for befriended company.
+Finally I decided to make my own web portfolio.
 ###### Code
-[Pexmeble website code](https://github.com/JSKuba/Pexmeble)
+[My Porfolio](https://github.com/JSKuba/Portfolio)
 ###### About
-My very first website for befriended company. Basically made for review of all skills I learned about web development. Used only HTML, CSS and vanilla Javascript. My goal was to create nice looking landing page, which also was requirement told to me by client. Nothing fancy, just some informations about company, contact, kind of services they provide. They really wanted to create theme maching their business identity, so I have done..
+Making this one gave me a lot of fun, I decided to keep with modern trends in UX/UI such as strong typhography, scrolling/interactive effects, dark themed layout. Decided to use gatsby, because I really like how fast these websites can go with still solid SEO. 
 
 ### Stardust
 ![Stardust](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/stardust-min.jpg)
@@ -46,15 +46,15 @@ Site made for Gdańsk University of Technology science club - SimLE.
 ###### About
 Site made for Gdańsk University of Technology science club - SimLE. I've got quite strict requirements about project: content should be given from markdown file, preferred using gatsby, modern look and posting blogs feature. I've learned a lot from this project, things like React lifecycle understanding, using Gatsby.js, prototyping in Adobe XD, getting and parsing data from markdown files and optimalization for decent speed. I've received very good feedback.
 
-### Portfolio
-![icon](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/portfolio-min.png)
-[Pexmeble website](#)
+### Pexmeble
+![Pexmeble](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/pex-min.jpg)
+[Pexmeble website](https://www.pexmeble.pl)
 
-Finally I decided to make my own web portfolio.
+My very first website for befriended company.
 ###### Code
-[My Porfolio](https://github.com/JSKuba/Portfolio)
+[Pexmeble website code](https://github.com/JSKuba/Pexmeble)
 ###### About
-Making this one gave me a lot of fun, I decided to keep with modern trends in UX/UI such as strong typhography, scrolling/interactive effects, dark themed layout. Decided to use gatsby, because I really like how fast these websites can go with still solid SEO. 
+My very first website for befriended company. Basically made for review of all skills I learned about web development. Used only HTML, CSS and vanilla Javascript. My goal was to create nice looking landing page, which also was requirement told to me by client. Nothing fancy, just some informations about company, contact, kind of services they provide. They really wanted to create theme maching their business identity, so I have done..
           
 ## Contact
 ![icon](https://raw.githubusercontent.com/JSKuba/Portfolio/master/src/images/contact.svg)
